@@ -2,11 +2,11 @@
 
 Divided into 3 categories based on objectives
 
-1. Creational Patterns - object creation
+    1. Creational Patterns - Creation of objects
 
-2. Structural Patterns - object assembly
+    2. Structural Patterns - Assembly of objects
 
-3. Behavioral Patterns - object creation
+    3. Behavioral Patterns - Interactions between objects
 
 
 
@@ -14,33 +14,32 @@ Divided into 3 categories based on objectives
 
 
 ### Singelton ###
-When a single instance of a class is needed.
+    When a single instance of a class is needed.
 
-Logger, Database 
-<br/>
-<br/>
+    For example - Logger, Database
+
 
 ### Factory Method ###
-Decouple object creation from usage.
+    Decouple object creation from usage.
 
-Create different types of database connections based on configuration
-<br/>
-<br/>
+    For example - Create different types of database connections based on configuration
+
 
 ### Abstract Factory ###
-Create families of related objects.
+    Create families of related objects.
 
-Build parsers for different file formats (e.g. JSON, XML, CSV). <br/><br/>
+    For example - Build parsers for different file formats (e.g. JSON, XML, CSV).
 
 
 ### Builder ###
-Constructing complex objects step by step.<br/><br/>
+    Constructing complex objects step by step.
 
 
 ### Prototype ###
-A partially or fully initialized object that you copy(clone) and make use of. </br>
-Creating duplicate objects and reusing cached objects to reduce database calls. </br>
-Requires deep copy support.</br></br>
+    A partially or fully initialized object that you copy(clone) and make use of.
+
+    For example - Creating duplicate objects and reusing cached objects to reduce database calls.
+    Requires deep copy support.
 
 
 
